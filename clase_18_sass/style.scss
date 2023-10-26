@@ -1,0 +1,57 @@
+/* VARIABLES */
+/* $colorDeFondo: #68b0ab;
+$colorPrimario: #8fc0a9;
+$colorSecindario: #c8d5b9;
+$colorTerciario: #4a7c59;
+$colorDeTexto: #faf3dd;
+$paddingGlobal: 20px; */
+
+@import "./utilities/variable.scss";
+@import "./layout/header.scss";
+@import "./layout/main.scss";
+@import "./layout/footer";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $colorDeFondo;
+  color: $colorDeTexto;
+}
+
+/* header {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: $colorPrimario;
+    padding: $paddingGlobal;
+  }
+
+  li:hover {
+    color: black;
+  }
+} */
+
+/* main {
+  padding: $paddingGlobal;
+
+  section {
+    padding: $paddingGlobal;
+
+    .proyectos {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+
+      div {
+        width: 100px;
+        height: 150px;
+        background-color: $colorSecindario;
+        border-radius: 25px;
+      }
+    }
+  }
+} */

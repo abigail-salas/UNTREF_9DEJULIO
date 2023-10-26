@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: azure;
+}
+
+.boton {
+  background-color: rgb(11, 191, 219);
+  color: black;
+}
+
+a {
+  text-decoration: none;
+ 
+}
+
+a:hover {
+  color: brown;
+}
+
+.listas {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: darkslategray;
+  background-color: cornsilk;
+}
+
+.untref:hover {
+  background-color: darkred;
+  color: rgb(244, 237, 230);
+  border: 3px solid black;
+}
+
+span {
+  background-color: blue;
+}
+
+/* ESTILOS DE "SOBRE NOSOTROS" */

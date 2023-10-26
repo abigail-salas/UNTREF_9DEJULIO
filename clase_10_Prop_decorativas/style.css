@@ -1,0 +1,124 @@
+body {
+  background-color: black;
+
+  /*   background-image: url("https://i.pinimg.com/236x/a0/7b/ce/a07bce3ad14c60764ddf7abb8363f033.jpg");
+
+  background-repeat: round; */
+
+  color: aliceblue;
+}
+
+p {
+  border: 2px solid rgba(255, 255, 255, 0.383);
+  /* background-color: cadetblue; */
+}
+
+.padre {
+  font-size: 16px;
+  color: aqua;
+}
+
+.hijo {
+  font-size: 2em;
+  color: brown;
+}
+
+.ejemplo {
+  font-size: 2vh;
+}
+
+.ejemplo2 {
+  font-size: 2vw;
+}
+
+.imgPaisaje {
+  width: 100px;
+  height: 150px;
+  opacity: 0.5; /* Controla la transparencia de un elemento cualquiera*/
+  filter: sepia(); /* Filtros que se pueden aplicar en imagenes */
+}
+
+.t-right {
+  text-align: right; /* Alinea el texto a la derecha */
+}
+
+.t-left {
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.t-center {
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.t-justify {
+  text-align: justify; /* Justifica todo el contenido */
+}
+
+.t-underline {
+  text-decoration: underline; /* Agrega una línea debajo del texto */
+}
+
+.t-overline {
+  text-decoration: overline; /* Agrega una línea encima del texto */
+}
+
+.t-line {
+  text-decoration: line-through; /* Tacha todo el texto */
+}
+
+.t-todas {
+  text-decoration: overline underline line-through; /* Combinamos todas las decoraciones */
+}
+
+.t-UC {
+  text-transform: uppercase; /* Convierte el texto a MAYUSCULAS */
+}
+
+.t-LC {
+  text-transform: lowercase; /* Convierte el texto a minusculas */
+}
+
+.t-Cap {
+  text-transform: capitalize; /* Convierte la primera letra de cada palabra en mayúscula */
+}
+
+.t-indent {
+  text-indent: 30px; /* Agrega una sangria al texto */
+
+  /* text-indent: -20px; */ /* Tambien puede ser valores negativos y va a mover el texto*/
+}
+
+.t-spacing {
+  letter-spacing: 5px; /* Agrega un espaciado entre los caracteres del texto */
+
+  /* letter-spacing: -5px; */ /* Tambien puede ser valores negativos y va a amontonar los caracteres */
+}
+
+.t-LH {
+  line-height: 2; /* Establece la altura de línea de un texto */
+}
+
+.t-WS {
+  word-spacing: -5px; /* Agrega un espaciado entre las palabras del texto */
+
+  /*  word-spacing: 5px; */
+}
+
+.t-shadow {
+  text-shadow: 3px 4px 4px brown; /* Agrega un sombreado al texto, los valores son: 3px = posicionX, 4px = posicionY, 4px = desenfoque de la sombra */
+}
+
+.t-WM {
+  writing-mode: vertical-lr; /* Establece la dirección de escritura */
+}
+
+.list1 {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.list2 {
+  list-style-type: disc;
+  list-style-position: inside;
+  /* list-style-image: url("https://png.pngtree.com/element_pic/00/16/09/1757dd3f256bb42.jpg") */ /* Cambia el item por default por una imagen */
+}

@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+div * {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px solid whitesmoke;
+}
+
+.container {
+  display: grid;
+  /* justify-content: space-between; */
+  grid-template-columns: repeat(3, 200px);
+}
+
+/* --------------------------------- */
+
+.container-2 {
+  display: grid;
+  grid-template-rows: repeat(3, 300px);
+}
+
+.container-2 div {
+  background-color: brown;
+}
+
+/* --------------------------------- */
+
+.container-3 {
+  display: grid;
+}
+
+.container-3 .item1 {
+  background-color: rgb(165, 138, 42);
+}
+
+.container-3 .item2 {
+  background-color: rgb(130, 105, 17);
+  grid-column: 2 / 4;
+}
+
+.container-3 .item3 {
+  background-color: rgb(67, 55, 10);
+  grid-column: span 2 / 7;
+}
+
+/* --------------------------------- */
+
+.container-4 {
+  display: grid;
+  grid-template-areas:
+    "head head"
+    "nav main"
+    "nav foot";
+  grid-template-rows: 150px 1fr;
+  grid-template-columns: 50px 1fr 30px;
+}
+
+.container-4 header {
+  grid-area: head;
+  background-color: aquamarine;
+  color: black;
+}
+
+.container-4 nav {
+  grid-area: nav;
+  background-color: rgb(15, 56, 42);
+  color: rgb(207, 186, 186);
+}
+
+.container-4 main {
+  grid-area: main;
+  background-color: rgb(8, 116, 80);
+  color: black;
+}
+
+.container-4 footer {
+  grid-area: foot;
+  background-color: rgb(11, 28, 22);
+  color: antiquewhite;
+}
+
+/* --------------------------------- */
+
+.container-5 {
+  display: grid;
+  background-color: rgb(27, 77, 77);
+}
+
+.container-5 div {
+  grid-area: 2 / 3 / 4 / span 3;
+}
+
+/* --------------------------------- */
+
+.container-6 {
+  display: grid;
+  gap: 50px;
+  grid-auto-flow: column;
+
+  /*  grid-auto-rows: 150px; */
+}
+
+/* --------------------------------- */

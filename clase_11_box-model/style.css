@@ -1,0 +1,103 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.modeloDeCaja {
+  /*  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 30px; */
+
+  padding: 40px 30px 20px 10px;
+
+  /*  border: 2px solid green; */
+
+  border-style: solid;
+  border-width: 3px;
+  border-color: blue;
+  border-radius: 5px;
+
+  margin: 20px;
+}
+
+.todas {
+  width: 100px;
+  height: 50px;
+  border: 1px solid red;
+}
+
+.visible {
+  overflow: visible;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.auto {
+  overflow: auto;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.position {
+  border: 2px solid firebrick;
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  top: 20px;
+  right: 20px;
+  left: 40px;
+}
+
+.absolute {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+  left: 30px;
+  background-color: rgb(26, 71, 71);
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
+}
+
+.fixed {
+  position: fixed;
+  top: 20px;
+  left: 40px;
+  background-color: chocolate;
+}
