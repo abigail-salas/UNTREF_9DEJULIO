@@ -1,0 +1,13 @@
+header {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: $colorPrimario;
+    padding: $paddingGlobal;
+  }
+
+  li:hover {
+    color: black;
+  }
+}

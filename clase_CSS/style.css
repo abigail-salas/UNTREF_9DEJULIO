@@ -1,0 +1,41 @@
+/* * {
+  border: 4px solid #83c9f4;
+} */
+
+body {
+  background-color: #533b4d;
+  color: #c1aba6;
+  /*  border: 4px solid #ffec51; */
+}
+
+p {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 4px dotted rgb(214, 192, 52);
+}
+
+.cortos {
+  background-color: #c1aba6;
+  color: #533b4d;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#unico {
+  font-family: monospace;
+  color: azure;
+  background-color: black;
+  font-size: 10px;
+}
+
+ul li ol li {
+  color: blue;
+  background-color: black;
+}
+
+ol li ol {
+  background-color: aqua;
+}
+
+ol li {
+  background-color: rgb(79, 153, 42);
+}

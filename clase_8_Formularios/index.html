@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: black; color: aliceblue">
+    <form action="" method="post">
+      <!-- ATRIBUTOS:
+      ** TYPE= es el tipo de input que se va a utilizar
+      ** NAME= es el nombre con el que se van a guardar los datos ingresados
+      ** VALUE= es el valor con el que se va a guardar el input
+      ** PLACEHOLDER= pone un texto de fondo
+      ** REQUIRED= hace que el input sea obligatorio
+      ** MAXLENGTH= pone un maximo de caracteres
+      ** MINLENGTH= pone un minimo de caracteres
+      ** PATTER= sirve para poner caracteres que se bloquearan
+      ** TEXT= va a poner un mensaje en las alertas para que los requisitos sean más especificos
+      -->
+
+      <label>
+        Nombre:
+        <input
+          type="text"
+          name="nombre"
+          id=""
+          placeholder="Nombre"
+          required
+          maxlength="10"
+          minlength="5"
+        />
+      </label>
+
+      <br />
+
+      <label
+        >Apellido: <input type="text" placeholder="Apellido" name="apellido" />
+      </label>
+
+      <br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        placeholder="Email"
+        id="email"
+        name="correo"
+        required
+      />
+
+      <br />
+
+      <label for="contraseña">Contraseña:</label>
+      <input
+        type="password"
+        placeholder="Contraseña"
+        id="contraseña"
+        name="contraseña"
+        required
+      />
+
+      <br />
+
+      <label for="num">Ingresa un número</label>
+      <input type="number" placeholder="Numero" id="num" />
+
+      <br />
+
+      <label for="fechaN">Fecha de Nacimiento:</label>
+      <input type="date" name="" id="fechaN" />
+
+      <br />
+
+      <label for="hora">Hora</label>
+      <input type="time" name="" id="hora" />
+
+      <br />
+      <label for="">Dejanos un comentario:</label>
+      <br />
+      <textarea
+        name=""
+        id=""
+        cols="10"
+        rows="5"
+        placeholder="Area de Texto"
+      ></textarea>
+
+      <br />
+
+      <label> Perro<input type="radio" name="mascota" value="perro" /></label>
+
+      <label> Gato<input type="radio" name="mascota" value="michi" /></label>
+
+      <label> Cobayo<input type="radio" name="mascota" value="cobayo" /></label>
+
+      <label> Dragon<input type="radio" name="mascota" value="dragon" /></label>
+
+      <br />
+
+      <label>
+        Acepto los terminos y condiciones <input type="checkbox" required
+      /></label>
+      <br />
+
+      <input type="color" />
+
+      <br />
+      <label>
+        Selecciona tu provincia
+        <select name="" id="">
+          <option value="">Buenos Aires</option>
+          <option value="">Salta</option>
+          <option value="">Chubut</option>
+          <option value="">Mendoza</option>
+        </select></label
+      >
+
+      <br />
+
+      <input type="file" name="" id="" />
+
+      <br />
+
+      <input type="range" />
+
+      <br />
+
+      <input type="url" />
+
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>

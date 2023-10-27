@@ -1,0 +1,42 @@
+div {
+  height: 100px;
+  width: 200px;
+  display: inline;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  color: white;
+}
+
+div.blue {
+  position: relative;
+  background-color: blue;
+  top: 20px;
+  right: 20px;
+}
+
+div.red {
+  background-color: red;
+  position: static;
+}
+
+div.green {
+  background-color: green;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+div.violet {
+  background-color: violet;
+  position: sticky;
+  top: 10px;
+}
+
+div.yellow {
+  background-color: yellow;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}

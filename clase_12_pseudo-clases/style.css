@@ -1,0 +1,244 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.hipervinculo:hover {
+  background-color: brown;
+}
+
+.hipervinculo:link {
+  color: chocolate;
+}
+
+.hipervinculo:visited {
+  color: chartreuse;
+}
+
+.hipervinculo:active {
+  color: azure;
+  background-color: cadetblue;
+}
+
+.menu {
+  background-color: lightcoral;
+  width: 200px;
+  border: 1px solid lightpink;
+  box-shadow: 5px 10px 30px gray;
+  margin-bottom: 40px;
+}
+
+.menu p {
+  padding: 1px;
+  padding-left: 8px;
+  text-transform: uppercase;
+}
+
+.menu p:first-child {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.menu p:last-child {
+  background-color: crimson;
+  color: whitesmoke;
+}
+
+.menu p:hover {
+  background-color: brown;
+  color: whitesmoke;
+}
+
+/* CONTENEDOR II */
+
+.menu-variado {
+  background-color: lightblue;
+  width: 200px;
+  border: 1px solid lightskyblue;
+  box-shadow: 5px 10px 30px gray;
+  margin-bottom: 40px;
+}
+
+.menu-variado * {
+  padding: 1px;
+  padding-left: 8px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.menu-variado p:first-of-type {
+  background-color: coral;
+  color: rgb(36, 35, 35);
+}
+
+.menu-variado span:first-of-type {
+  background-color: rgb(80, 255, 153);
+  color: rgb(36, 35, 35);
+}
+
+.menu-variado div:first-of-type {
+  background-color: rgb(80, 112, 255);
+  color: rgb(36, 35, 35);
+}
+
+.menu-variado p:last-of-type {
+  background-color: rgb(164, 105, 56);
+  color: rgb(36, 35, 35);
+}
+
+.menu-variado span:last-of-type {
+  background-color: rgb(56, 164, 110);
+  color: rgb(36, 35, 35);
+}
+
+.menu-variado div:last-of-type {
+  background-color: rgb(56, 87, 164);
+  color: rgb(36, 35, 35);
+}
+
+/* CONTENEDOR III */
+
+.menu-variado-2 {
+  background-color: lightseagreen;
+  width: 200px;
+  border: 1px solid lightskyblue;
+  box-shadow: 5px 10px 30px gray;
+  margin-bottom: 40px;
+}
+
+.menu-variado-2 * {
+  padding: 1px;
+  padding-left: 8px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.menu-variado-2 :nth-child(4) {
+  background-color: blueviolet;
+}
+
+.menu-variado-2 :nth-last-child(3) {
+  background-color: rgb(43, 226, 208);
+}
+
+.menu-variado-2 div:nth-of-type(2) {
+  background-color: rgb(226, 43, 141);
+}
+
+.menu-variado-2 p:nth-last-of-type(2) {
+  background-color: rgb(226, 147, 43);
+}
+
+/* TABLAS */
+
+.fila:nth-child(odd) {
+  background-color: blueviolet;
+}
+
+.fila:nth-child(even) {
+  background-color: rgb(43, 226, 171);
+  color: black;
+}
+
+/* ELEMENTOS UNICOS */
+.menu-variado-3 {
+  background-color: lightgoldenrodyellow;
+  width: 200px;
+  border: 1px solid lightyellow;
+  box-shadow: 5px 10px 30px gray;
+  margin-bottom: 40px;
+}
+
+.menu-variado-3 * {
+  padding: 1px;
+  padding-left: 8px;
+  text-transform: uppercase;
+  display: block;
+  color: black;
+}
+
+.menu-variado-3 div:only-child {
+  background-color: cadetblue;
+}
+
+.menu-variado-3 p:only-of-type {
+  background-color: rgb(176, 122, 61);
+}
+
+/* FORMULARIOS */
+
+input {
+  display: block;
+}
+
+input:disabled {
+  background-color: darkslategrey;
+}
+
+input:focus {
+  background-color: darkgoldenrod;
+}
+
+input:valid {
+  background-color: darkgreen;
+}
+
+input:invalid {
+  background-color: darkred;
+}
+
+input:required {
+  outline-color: greenyellow;
+}
+
+/* TRANSFORM */
+
+.elemento {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}
+
+.elemento {
+  /* transform: translate(10px, 20px); */
+
+  /* transform: rotate(50deg); */
+
+  /* transform: scale(1, 0.2); */
+
+  /* transform: skew(10deg, 14deg); */
+
+  transition: margin-right 4s 1s;
+}
+
+.elemento:hover {
+  /* transition-duration: 1s; */
+
+  /*  transition-delay: 1s; */
+
+  transition-property: 2s;
+  transform: skew(10deg, 14deg);
+}
+
+/* KEYFRAME */
+
+div.key {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: movimiento 5s infinite;
+}
+
+@keyframes movimiento {
+  0% {
+    top: 0px;
+    background: red;
+    width: 100px;
+  }
+  100% {
+    top: 200px;
+    background: yellow;
+    width: 300px;
+  }
+}
