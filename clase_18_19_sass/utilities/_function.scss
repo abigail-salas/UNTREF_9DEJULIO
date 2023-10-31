@@ -1,0 +1,3 @@
+@function cambioEm($pixeles, $contenido: 16px) {
+  @return calc($pixeles / $contenido) * 1em;
+}

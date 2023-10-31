@@ -1,0 +1,27 @@
+@import "./function";
+
+@mixin flex($display: flex, $justify-content: space-between) {
+  display: $display;
+  justify-content: $justify-content;
+}
+
+@mixin divCajas($width: cambioEm(100px), $height: cambioEm(150px)) {
+  width: $width;
+  height: $height;
+}
+
+@mixin borderRadius($border-radius: 25px, $border: 2px solid $colorPrimario) {
+  border-radius: $border-radius;
+  border: $border;
+}
+
+@mixin textoAlternativo {
+  a {
+    text-decoration: none;
+    color: $colorDeTexto;
+    /*  font-size: larger; */
+    font-style: oblique;
+
+    font-size: cambioEm(20px);
+  }
+}
