@@ -10,6 +10,7 @@ $paddingGlobal: 20px; */
 @import "./layout/header.scss";
 @import "./layout/main.scss";
 @import "./layout/footer";
+@import "./utilities/mixins";
 
 * {
   padding: 0;
@@ -20,6 +21,8 @@ body {
   background-color: $colorDeFondo;
   color: $colorDeTexto;
 }
+
+/* @include textoAlternativo; */
 
 /* header {
   ul {

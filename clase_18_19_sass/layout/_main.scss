@@ -1,0 +1,45 @@
+@import "../utilities/mixins";
+
+main {
+  padding: $paddingGlobal;
+
+  section {
+    padding: $paddingGlobal;
+
+    p {
+      padding: $paddingGlobal;
+    }
+
+    .proyectos {
+      /* display: flex;
+      justify-content: space-around; */
+
+      @include flex(flex, space-around);
+      text-align: center;
+
+      div {
+        /*  width: 100px;
+        height: 150px; */
+        @include divCajas;
+        background-color: $colorSecundario;
+        /*   border-radius: 25px; */
+        @include borderRadius;
+      }
+    }
+
+    .contacto {
+      /* display: flex;
+      justify-content: space-between; */
+
+      @include flex;
+      text-align: center;
+
+      div {
+        @include divCajas(200px, 200px);
+        background-color: $colorCuaternario;
+        /* border-radius: 25px; */
+        @include borderRadius(50%);
+      }
+    }
+  }
+}

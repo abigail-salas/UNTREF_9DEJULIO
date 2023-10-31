@@ -1,0 +1,19 @@
+@import "../utilities/mixins";
+
+header {
+  ul {
+    /* display: flex; 
+     justify-content: space-between */
+
+    @include flex;
+    list-style: none;
+    background-color: $colorPrimario;
+    padding: $paddingGlobal;
+
+    @include textoAlternativo;
+  }
+
+  a:hover {
+    color: $colorSecundario;
+  }
+}
