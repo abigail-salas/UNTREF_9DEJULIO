@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
+
+.boton {
+  padding: 10px;
+
+  color: chocolate;
+}
+
+.letra {
+  color: brown;
+}
+
+.colVerde {
+  background-color: rgb(6, 99, 49);
+
+  border: 2px solid slateblue;
+}
+
+.rowBorde {
+  border: 2px solid skyblue;
+}
+
+.colAzul {
+  background-color: rgb(6, 34, 99);
+
+  border: 2px solid rgb(90, 194, 205);
+}
